@@ -1,0 +1,62 @@
+MAIN
+
+Char
+letra          //Lectura o no de la información guardada en el txt
+letraletrasim  //existencia de secuencias simultaneas
+nom[64]        //nombre de la plantilla
+cogeletra[8]   //lectura de entrada
+
+int
+f         //variable para la función for
+g         //variable para la función for
+mod = 0   //indicador de error
+n = -1    //seguimiento de creación 
+lon       //longitud de la cadena de caracteres
+error     //error numero etapas
+nomer     //indica error en el nombre
+finmod    //finalizar o modificar plantilla
+modi      //dirección de creación
+adv       //comprobación de error
+adve      //comprobación de error
+advs      //comprobación de error
+petapa    //etapas anteriores
+pancho    //condiciones de la transición
+pnega     //etapas posteriores
+netapa    //número temporizadores
+initot    //número total etapas iniciales
+inietapa[64]  //etapas iniciales
+nentrada      //número total de entradas
+entrad[64]    //entradas
+nsalida       //número total de salidas
+salidas[64]   //salidas
+ntemp = 0     //número total de temporizadores
+
+unsigned int
+nombre  //comprobar letras del nombre
+
+long
+tempo[64] //tiempo temporizadores
+
+PLANTILLA
+
+Int
+g       //variable para la función for
+f       //variable para la función for
+h       //variable para la función for
+lon     //longitud del los nombres
+lonruta //longitud de caracteres de la ruta del programa
+lonom   //longitud total
+numero  //comprobar si el primer carácter es un numero
+cnom = 0      //variable para escribir la ruta
+longtemp = 0  //variable para usar int o long al temporizar
+
+char
+nomcifra[64]          //nombre de los archivos
+*nom2="plantilla.ino" //nombre por defecto
+nomli[64] variable    //para copiar la cadena de caracteres
+*nomli2="plantilla.h" //nombre por defecto
+nomdire[512]          //nombre de la ruta
+*nomc="plantilla"     //nombre por defecto
+nomdirec[512]         //nombre de la ruta para la carpeta
+nomino[512]           //nombre de la ruta para archivo.ino
+nomlienc[512]         //nombre de la ruta para archivo.h
