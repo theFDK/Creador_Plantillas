@@ -1,62 +1,65 @@
-MAIN
-
-Char
+         -MAIN-
+          
+-Char
+cogeletra[8]   //lectura de entrada
 letra          //Lectura o no de la información guardada en el txt
 letraletrasim  //existencia de secuencias simultaneas
-nom[64]        //nombre de la plantilla
-cogeletra[8]   //lectura de entrada
+nombre[64]        //nombre de la plantilla
 
-int
-f         //variable para la función for
-g         //variable para la función for
-mod = 0   //indicador de error
-n = -1    //seguimiento de creación 
-lon       //longitud de la cadena de caracteres
-error     //error numero etapas
-nomer     //indica error en el nombre
-finmod    //finalizar o modificar plantilla
-modi      //dirección de creación
-adv       //comprobación de error
-adve      //comprobación de error
-advs      //comprobación de error
-petapa    //etapas anteriores
-pancho    //condiciones de la transición
-pnega     //etapas posteriores
-netapa    //número temporizadores
-initot    //número total etapas iniciales
-inietapa[64]  //etapas iniciales
-nentrada      //número total de entradas
-entrad[64]    //entradas
-nsalida       //número total de salidas
-salidas[64]   //salidas
-ntemp = 0     //número total de temporizadores
+-int
+adv        //comprobación de error
+adve       //comprobación de error
+advs       //comprobación de error
+entrad[64] //entradas
+error      //error numero etapas
+f          //variable para la función for
+finmod     //finalizar o modificar plantilla
+g          //variable para la función for
+inietapa[64] //etapas iniciales
+initot     //número total etapas iniciales
+lon        //longitud de la cadena de caracteres
+mod = 0    //indicador de error
+modi       //dirección de creación
+n = -1     //seguimiento de creación 
+nentrada   //número total de entradas
+netapa     //número temporizadores
+nomer      //indica error en el nombre
+nsalida    //número total de salidas
+ntemp = 0  //número total de temporizadores
+pancho     //condiciones de la transición
+petapa     //etapas anteriores
+pnega      //etapas posteriores
+salidas[64] //salidas
 
-unsigned int
+
+-unsigned int
 nombre  //comprobar letras del nombre
 
-long
+-long
 tempo[64] //tiempo temporizadores
 
-PLANTILLA
+    -PLANTILLA-
 
-Int
-g       //variable para la función for
-f       //variable para la función for
-h       //variable para la función for
-lon     //longitud del los nombres
-lonruta //longitud de caracteres de la ruta del programa
-lonom   //longitud total
-numero  //comprobar si el primer carácter es un numero
-cnom = 0      //variable para escribir la ruta
+-int
+cnombre = 0   //variable para escribir la ruta
+f             //variable para la función for
+g             //variable para la función for
+h             //variable para la función for
+lon           //longitud del los nombres
 longtemp = 0  //variable para usar int o long al temporizar
+lonombre      //longitud total
+lonruta       //longitud de caracteres de la ruta del programa
+numero        //comprobar si el primer carácter es un numero
 
-char
-nomcifra[64]          //nombre de los archivos
+
+-char
 *nom2="plantilla.ino" //nombre por defecto
-nomli[64] variable    //para copiar la cadena de caracteres
-*nomli2="plantilla.h" //nombre por defecto
-nomdire[512]          //nombre de la ruta
 *nomc="plantilla"     //nombre por defecto
+*nomli2="plantilla.h" //nombre por defecto
+nomcifra[64]          //nombre de los archivos
+nomdire[512]          //nombre de la ruta
 nomdirec[512]         //nombre de la ruta para la carpeta
 nomino[512]           //nombre de la ruta para archivo.ino
+nomli[64] variable    //para copiar la cadena de caracteres
 nomlienc[512]         //nombre de la ruta para archivo.h
+
