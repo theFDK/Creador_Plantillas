@@ -1,0 +1,92 @@
+  -Main-
+
+Bienvenido al Creador_Plantillas.     Versión 2.2.2
+Diseñado por: the FDK.
+Guardado.txt
+No se encontró el fichero: guardado.txt    Se creara uno nuevo
+Error de lectura en el fichero: guardado.txt   Se creara uno nuevo
+Utilizar configuración anterior?
+Modificar?
+Nada
+Estructura
+Temporizadores
+Etapas
+Entradas
+Salidas
+Nombre
+Tiene que introducir de 0 a 6
+Número máximo de etapas anteriores (entradas) a una:
+Número máximo de condiciones de la transición:
+Número máximo de etapas posteriores (salidas) a una:
+Hay secuencias simultáneas?
+Cuantos temporizadores hay?
+Dime el tiempo de temporización (1000 = 1 segundo) del temporizador:
+No puede ser 0:
+Cuantas etapas tiene?:
+Dime las etapas iniciales.  (Pulse intro, sin introducir número, para continuar):
+Etapa: 0
+Etapa:
+Cuantas entradas de pin usa?:
+Dime el número de pin de las entradas:
+Cuantas salidas de pin usa?:
+Dime el número de pin de las salidas:
+Dime el nombre del archivo (Predeterminado: 0):
+*** Plantilla finalizada ***   Pulse intro para salir.
+Y generar plantilla. O (m) para modificar:
+
+  -Funciones-
+
+ADVERTENCIA   duplicidad/es en número de pin entre
+Entradas:
+Salidas:
+AVISO Duplicidades en número de pin:
+Error, ha introducido una letra o símbolo, introduzca un número:
+Error, no puede ser mayor de 32767:
+Error, ha introducido una letra o símbolo, introduzca un número:
+Error, no puede ser mayor de 4294967295:
+Error, no puede ser mayor de 58 caracteres:
+Error, no puede contener símbolos el nombre:
+Error, tiene que introducir s (si) o n (no):
+Modificación de
+Estructura
+Temporizadores
+Etapas
+Entradas
+Salidas
+Nombre
+Finalizado
+Estructura
+Temporizadores
+Etapas
+Entradas
+Salidas
+Nombre
+Máximo 1:
+Máximo 32:
+Como máximo 64:
+El mínimo es 3:
+El máximo es 128:
+El máximo es 
+Error, duplicidad:
+
+  -PLANTILLA-
+
+Funcion para la transicion.
+Funcion para la transicion Simultanea.
+Funcion para la transicion lineal.
+Funciones para la temporizacion.
+Temporizadores, comparadores, tiempo.
+Etapas, flancos, entradas, salidas y variables.
+Parpadeo
+Ciclo
+Funcion para temporizar:
+Funcion para parpadear:
+Funcion para ciclo:
+Etapas iniciales.
+Lectura de entradas.
+Transiciones.
+Reset etapas.
+Reset de temporizadores.
+Acciones. 
+Acciones momentaneas.
+Flancos de las etapas.
